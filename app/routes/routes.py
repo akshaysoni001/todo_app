@@ -1,4 +1,4 @@
 from app import api
-from app.views.views import TodoApp
+from app.views.views import TodoAppView
 
-api.add_resource(TodoApp, '/todoapp')
+api.add_resource(TodoAppView, '/todoapp')
